@@ -328,17 +328,28 @@ font-size: 14px;;
 
 /* gallery css */
 
-.gallery
-{
-    width:100%;
-    padding: 50px 15%;
-    background-color: black;
-}
 
-.gal
-{
- width:40%;
- height: 330px;
- 
-}
+    .gallary{
+        width:100%;
+        padding:50px 0%;
+        background-color:black;
+        display:flex;
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+        margin-right: 20px;
+        margin-left:20px;
+        row-gap: 30px;
+         
+    }
+    
+    .gal{
+        width:30%;
+        cursor:pointer;
+        transition: 30ms;
+        opacity:0.5;
+    }
+    
+    .gal:hover{
+    opacity:1;
+    }
 
